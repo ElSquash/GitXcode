@@ -19,6 +19,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    @IBAction func clickButton(sender: UIButton) {
+        
+        print("What is up??")
+        sender.setTitle("You did it!", forState: .Normal)
+    }
 
 
 }
