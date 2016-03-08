@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     @IBAction func clickButton(sender: UIButton) {
         
         print("What is up??")
-        print("Nothing much")
         sender.setTitle("You did it!", forState: .Normal)
     }
 
